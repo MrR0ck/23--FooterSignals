@@ -8,7 +8,7 @@ basic.forever(function () {
     if (Відлік == 0) {
         Рух = true
         _1.showColor(neopixel.colors(NeoPixelColors.Red))
-        Відлік = 5
+        Відлік = 8
         while (Відлік > 0) {
             basic.showNumber(Відлік)
             basic.pause(800)
